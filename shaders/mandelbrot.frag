@@ -4,7 +4,7 @@ out vec4 finalColor;
 uniform vec2 resolution;
 uniform int maxIter;
 uniform vec2 center;
-uniform double scale;
+uniform float scale;
 
 vec3 palette(float t) {
     return vec3(
