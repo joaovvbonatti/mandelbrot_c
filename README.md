@@ -21,6 +21,26 @@ The number of iterations before divergence defines the pixel color.
 
 Zoom and pan are implemented by adjusting the complex plane center and scale, which are passed to the shader as uniforms, enabling real-time exploration entirely on the GPU.
 
+## Build & Run
+
+### Requirements
+
+- CMake (>= 4.1)
+- Raylib
+- A C compiler
+
+### Linux
+
+```bash
+git clone https://github.com/joaovvbonatti/mandelbrot_c.git
+cd mandelbrot
+mkdir build
+cd build
+cmake ..
+make
+./Mandelbrot
+```
+
 ## Further Reading
 
 
