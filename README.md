@@ -33,7 +33,7 @@ Zoom and pan are implemented by adjusting the complex plane center and scale, wh
 
 ```bash
 git clone https://github.com/joaovvbonatti/mandelbrot_c.git
-cd mandelbrot
+cd mandelbrot_c
 mkdir build
 cd build
 cmake ..
